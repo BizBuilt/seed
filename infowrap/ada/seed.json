@@ -4,7 +4,7 @@
 		{
 			"name": "Ada Fairweather",
 			"login": "adafair",
-			"password": "73!toadapplelemmingpicnic",
+			"password": "$random_hex",
 			"email": "ada.fairweather@bizbuilt.com",
 			"wraps": [
 				{
