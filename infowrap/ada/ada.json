@@ -1,0 +1,56 @@
+{
+	"name": "Ada",
+	"accounts": [
+		{
+			"name": "Ada Fairweather",
+			"login": "adafair",
+			"password": "73!toadapplelemmingpicnic",
+			"email": "ada.fairweather@bizbuilt.com",
+			"wraps": [
+				{
+					"name": "Ada Fairweather",
+					"identifier": "adafairweather",
+					"public": true,
+					"featured": false,
+					"avatar": {"name": "avatar.jpg", "file": "files/avatar.jpg"},
+					"cover": {"name": "cover.jpg", "file": "files/cover.jpg"},
+					"about": [
+						{
+							"visibility": "public",
+							"name": "Software Developer",
+							"content": "$lorem_ipsum"
+						}
+					],
+					"contacts": [
+						{
+							"name": "Work",
+							"visibility": "public",
+							"data": [
+								{"name": "Email", "value": "ada.fairweather@bizbuilt.com"}
+							]
+						}
+					],
+					"locations": [
+						{
+							"name": "Home",
+							"visibility": "all",
+							"data": [
+								{"name": "City", "value": "Beaverton"},
+								{"name": "State", "value": "Oregon"},
+								{"name": "Zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "Work",
+							"visibility": "public",
+							"data": [
+								{"name": "City", "value": "Lake Oswego"},
+								{"name": "State", "value": "Oregon"}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
