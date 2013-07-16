@@ -1,0 +1,182 @@
+{
+	"name": "test",
+	"groups": [
+		{
+			"name": "ourteam",
+			"wraps": ["janedoe", "johndoe"],
+			"connections": ["$random-wraps"]
+		},
+		{
+			"name": "random-wraps",
+			"wraps": {
+				"count": 3,
+				"public": true,
+				"featured": true,
+				"wrap_template": {
+					"connections": ["johnsmith"],
+					"connection_requests": ["janedoe"],
+					"about": [
+						{
+							"visibility": "public",
+							"name": "$wrap_name",
+							"content": "$wrap_identifier"
+						}
+					]
+				}
+			},
+			"interconnected": true
+		},
+		{
+			"name": "random-wraps-2",
+			"wraps": {
+				"count": 5
+			},
+			"connections": ["janedoe"],
+			"connection_requests": ["johnsmith"]
+		},
+		{
+			"name": "requesting-connections",
+			"connection_requests": ["janedoe", "$random-wraps"],
+			"interconnected_requests": true,
+			"wraps": {
+				"count": 3
+			}
+		}
+	],
+	"accounts": [
+		{
+			"name": "Jane Doe",
+			"login": "janedoe",
+			"password": "4bb9968157405d96",
+			"email": "janedoe@test.com",
+			"wraps": [
+				{
+					"name": "Jane Doe",
+					"identifier": "janedoe",
+					"public": false,
+					"featured": false,
+					"avatar": {"name": "avatar.jpg", "file": "files/avatar.jpg"},
+					"cover": {"name": "cover.jpg", "file": "files/cover.jpg"},
+					"connections": ["johndoe"],
+					"about": [
+						{
+							"visibility": "public",
+							"name": "Software Developer",
+							"content": "$lorem_ipsum"
+						}
+					],
+					"contacts": [
+						{
+							"name": "Work",
+							"visibility": "public",
+							"data": [
+								{"name": "email", "value": "janedoe@test.com"},
+								{"name": "phone", "value": "123-456-7890"}
+							]
+						}
+					],
+					"locations": [
+						{
+							"name": "Home",
+							"visibility": "public",
+							"data": [
+								{"name": "city", "value": "Beaverton"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97007"}
+							]
+						}
+					],
+					"discussions": [
+						{
+							"name": "The weather",
+							"readers": ["johndoe"],
+							"messages": [
+								{
+									"wrap": "janedoe",
+									"message": "It's raining today."
+								},
+								{
+									"wrap": "johndoe",
+									"message": "It was nice yesterday though."
+								},
+								{
+									"wrap": "janedoe",
+									"message": "$lorem_ipsum"
+								}
+							]
+						}
+					],
+					"files": [
+						{
+							"name": "test-1.txt",
+							"file": "files/lorem_ipsum.txt"
+						}
+					],
+					"galleries": [
+						{
+							"name": "Weekend Trip",
+							"description": "My trip to a nearby tourist attraction.",
+							"visibility": ["johndoe"],
+							"slides": [
+								{
+									"name": "Something interesting",
+									"description": "...",
+									"file": {
+										"name": "slide-1.jpg",
+										"file": "files/avatar.jpg"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "John Doe",
+			"login": "johndoe",
+			"password": "$random_hex",
+			"email": "johndoe@test.com",
+			"wraps": [
+				{
+					"name": "John Doe",
+					"identifier": "johndoe",
+					"public": false,
+					"featured": false,
+					"connections": ["janedoe"]
+				}
+			]
+		},
+		{
+			"name": "John Smith",
+			"login": "johnsmith",
+			"password": "$random_hex",
+			"email": "johnsmith@test.com",
+			"wraps": [
+				{
+					"name": "John Smith",
+					"identifier": "johnsmith",
+					"public": false,
+					"featured": false,
+					"connection_requests": ["janedoe", "johndoe"]
+				}
+			]
+		},
+		{
+			"name": "Mary Sue",
+			"login": "marysue",
+			"password": "$random_hex",
+			"email": "marysue@test.com",
+			"wraps": [
+				{
+					"name": "Mary Sue",
+					"identifier": "marysue",
+					"public": false,
+					"featured": false,
+					"connections": ["$ourteam"],
+					"connection_requests": ["$random-wraps"]
+				}
+			]
+		}
+	]
+}
