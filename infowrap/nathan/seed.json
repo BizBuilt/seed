@@ -73,8 +73,7 @@
 								{"name": "Home/city", "value": "Portland"},
 								{"name": "Home/state", "value": "OR"},
 								{"name": "Home/zip", "value": "97215"}
-							],
-							"tags": ["@contact/Developers"]
+							]
 						}
 					],
 					"locations": [
@@ -85,8 +84,7 @@
 								{"name": "Work Address/city", "value": "Beaverton"},
 								{"name": "Work Address/state", "value": "Oregon"},
 								{"name": "Work Address/zip", "value": "97007"}
-							],
-							"tags": ["@location/Work"]
+							]
 						}
 					],
 					"discussions": [
@@ -109,8 +107,7 @@
 							]
 						},
 						{
-							"name": "Another discussion",
-							"tags": ["@discussion/Party"]
+							"name": "Another discussion"
 						}
 					],
 					"files": [
@@ -137,8 +134,7 @@
 						},
 						{
 							"name": "Test",
-							"description": "Tag test",
-							"tags": ["@gallery/Portland, OR"]
+							"description": "Tag test"
 						}
 					]
 				}
