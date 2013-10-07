@@ -1,0 +1,189 @@
+{
+	"name": "standard",
+	"groups": [
+		{
+			"name": "ourteam",
+			"wraps": ["nathan", "johndoe"],
+			"follows": ["$random-wraps"]
+		},
+		{
+			"name": "random-wraps",
+			"wraps": {
+				"count": 3,
+				"public": true,
+				"featured": true,
+				"wrap_template": {
+					"follows": ["johnsmith"],
+					"about": [
+						{
+							"name": "$wrap_name",
+							"content": "$wrap_identifier"
+						}
+					]
+				}
+			},
+			"follows": ["$random-wraps"]
+		},
+		{
+			"name": "random-wraps-2",
+			"wraps": {
+				"count": 5
+			},
+			"follows": ["nathan"]
+		}
+	],
+	"accounts": [
+		{
+			"name": "Nathan Walker",
+			"login": "nathan",
+			"password": "mario1",
+			"email": "nathan.walker@infowrap.com",
+			"wraps": [
+				{
+					"name": "Nathan Walker",
+					"identifier": "nathan",
+					"public": false,
+					"featured": false,
+					"avatar": {"name": "avatar.jpg", "file": "files/me_profile.png"},
+					"cover": {"name": "cover.jpg", "file": "files/BigSky1.jpg"},
+					"follows": ["johndoe"],
+					"about": [
+						{
+							"name": "Lorem ipsum",
+							"content": "$lorem_ipsum"
+						}
+					],
+					"contacts": [
+						{
+							"name": "Jane Doe",
+							"details": [
+								{"name": "Work Email", "value": "janedoe@test.com"},
+								{"name": "Mobile Phone", "value": "503-456-7890"},
+								{"name": "Work Address/street", "value": "123 Infinite Loop"},
+								{"name": "Work Address/street2", "value": "Suite B"},
+								{"name": "Work Address/city", "value": "Cupertino"},
+								{"name": "Work Address/state", "value": "CA"},
+								{"name": "Work Address/zip", "value": "97007"},
+								{"name": "Work Address[2]/street", "value": "1515 Test Dr."},
+								{"name": "Work Address[2]/city", "value": "Portland"},
+								{"name": "Work Address[2]/state", "value": "OR"},
+								{"name": "Work Address[2]/zip", "value": "97215"},
+								{"name": "Home/street", "value": "1545 Hawthorne Blvd."},
+								{"name": "Home/street2", "value": "Suite 345"},
+								{"name": "Home/city", "value": "Portland"},
+								{"name": "Home/state", "value": "OR"},
+								{"name": "Home/zip", "value": "97215"}
+							]
+						}
+					],
+					"locations": [
+						{
+							"name": "Home",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						}
+					],
+					"discussions": [
+						{
+							"name": "The weather",
+							"readers": ["johndoe"],
+							"messages": [
+								{
+									"wrap": "nathan",
+									"message": "It's raining today."
+								},
+								{
+									"wrap": "johndoe",
+									"message": "It was nice yesterday though."
+								},
+								{
+									"wrap": "nathan",
+									"message": "$lorem_ipsum"
+								}
+							]
+						},
+						{
+							"name": "Another discussion"
+						}
+					],
+					"files": [
+						{
+							"name": "test-1.txt",
+							"file": "files/lorem_ipsum.txt",
+							"tags": ["abc", "abc/def"]
+						}
+					],
+					"galleries": [
+						{
+							"name": "Weekend Trip",
+							"description": "My trip to a nearby tourist attraction.",
+							"slides": [
+								{
+									"name": "Something interesting",
+									"description": "...",
+									"file": {
+										"name": "slide-1.jpg",
+										"file": "files/js.jpg"
+									}
+								}
+							]
+						},
+						{
+							"name": "Test",
+							"description": "Tag test"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "John Doe",
+			"login": "johndoe",
+			"password": "$random_hex",
+			"email": "johndoe@test.com",
+			"wraps": [
+				{
+					"name": "John Doe",
+					"identifier": "johndoe",
+					"public": false,
+					"featured": false,
+					"follows": ["nathan"]
+				}
+			]
+		},
+		{
+			"name": "John Smith",
+			"login": "johnsmith",
+			"password": "$random_hex",
+			"email": "johnsmith@test.com",
+			"wraps": [
+				{
+					"name": "John Smith",
+					"identifier": "johnsmith",
+					"public": false,
+					"featured": false,
+					"follows": ["nathan", "johndoe"]
+				}
+			]
+		},
+		{
+			"name": "Mary Sue",
+			"login": "marysue",
+			"password": "$random_hex",
+			"email": "marysue@test.com",
+			"wraps": [
+				{
+					"name": "Mary Sue",
+					"identifier": "marysue",
+					"public": false,
+					"featured": false,
+					"follows": ["$ourteam"]
+				}
+			]
+		}
+	]
+}
