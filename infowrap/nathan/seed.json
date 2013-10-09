@@ -85,6 +85,16 @@
 								{"name": "Work Address/state", "value": "Oregon"},
 								{"name": "Work Address/zip", "value": "97007"}
 							]
+						},
+						{
+							"name": "Work",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
 						}
 					],
 					"discussions": [
