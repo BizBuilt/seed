@@ -529,6 +529,103 @@
 								}
 							]
 						}
+					],
+					"locations": [
+						{
+							"name": "1",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "2",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
+						},
+						{
+							"name": "3",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "4",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
+						},
+						{
+							"name": "5",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "6",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
+						},
+						{
+							"name": "7",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "8",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
+						},
+						{
+							"name": "9",
+							"details": [
+								{"name": "Work Address/street", "value": "123 Testing Dr."},
+								{"name": "Work Address/city", "value": "Beaverton"},
+								{"name": "Work Address/state", "value": "Oregon"},
+								{"name": "Work Address/zip", "value": "97007"}
+							]
+						},
+						{
+							"name": "10",
+							"details": [
+								{"name": "street", "value": "4000 Kruse Way Pl"},
+								{"name": "street2", "value": "Bldg 2"},
+								{"name": "city", "value": "Lake Oswego"},
+								{"name": "state", "value": "Oregon"},
+								{"name": "zip", "value": "97035"}
+							]
+						}
 					]
 				}
 			]
