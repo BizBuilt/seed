@@ -1,13 +1,13 @@
-# InfoWrap Seeder
+# Infowrap Seeder
 
-The InfoWrap Seeder takes seed files in JSON format as input and generates content based on those files in our database.
+The Infowrap Seeder takes seed files in JSON format as input and generates content based on those files in our database.
 
 Each seed file should contain one [seed](#seed) at it's root level.
 
 
 ## Usage
 
-The InfoWrap Seeder is built into the [api.infowrap.com](https://github.com/BizBuilt/api.infowrap.com) repository. You must download the repository and follow it's setup instructions before using the seeder.
+The Infowrap Seeder is built into the [api.infowrap.com](https://github.com/BizBuilt/api.infowrap.com) repository. You must download the repository and follow it's setup instructions before using the seeder.
 
 The following commands must be run from within the *api.infowrap.com* project folder on your system.
 

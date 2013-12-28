@@ -10,4 +10,4 @@ The format and usage of seed data may vary by project, so see the appropriate RE
 
 ### [Infowrap](infowrap/README.md)
 
-InfoWrap seeds are used to construct accounts, wraps, assets, and other data structures in addition to handling file uploads in order to build rich content networks.
+Infowrap seeds are used to construct accounts, wraps, assets, and other data structures in addition to handling file uploads in order to build rich content networks.

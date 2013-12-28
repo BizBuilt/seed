@@ -1,6 +1,6 @@
-# InfoWrap
+# Infowrap
 
-InfoWrap seed data includes things like accounts, wraps, and assets.
+Infowrap seed data includes things like accounts, wraps, and assets.
 
 
 ## Tools
