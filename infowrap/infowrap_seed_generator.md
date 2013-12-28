@@ -1,4 +1,4 @@
-# Infowrap Seed Generator
+# Infowrap seed generator
 
 The Infowrap Seed Generator creates seeds based on information in the database. By default all accounts in the database will be added to the seed. Alternatively, a wrap identifier may be specified, which will limit the seed to only that wrap's account's content and minimal information about other wraps that are referenced, to ensure the integrity of the seed.
 
